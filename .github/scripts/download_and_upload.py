@@ -37,9 +37,7 @@ def download_video(url, output_dir="downloads"):
     
     command = [
         "yt-dlp",
-        "--format", "best",
         "--output", output_template,
-        "--no-playlist",
         url
     ]
     
