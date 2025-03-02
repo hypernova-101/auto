@@ -84,7 +84,7 @@ def upload_to_youtube(youtube, file_path, url):
                 "tags": ["auto-upload"]
             },
             "status": {
-                "privacyStatus": "private"  # Set to private by default for safety
+                "privacyStatus": "public"  # Set to private by default for safety
             }
         }
 
